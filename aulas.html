@@ -1,0 +1,12 @@
+---
+layout: post
+---
+{% for i in site.aulas %}
+<h1>{{i.titulo}}</h1>
+<iframe width="560" height="315" 
+src="{{ i.embed }}" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+<br><br>   
+{% endfor %}
